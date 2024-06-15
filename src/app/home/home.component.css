@@ -1,0 +1,54 @@
+.background{
+    height: 100%;
+}
+.text{
+    margin-top: 125px;
+}
+.content {
+    position: relative;
+    height: 550px;
+    background-image: url('https://c1.wallpaperflare.com/preview/863/956/915/doctor-physician-surgery-operation.jpg');
+    background-size: cover; /* Cover the entire .content div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    z-index: 1;
+    color: white; /* Ensure text is visible over the background */
+    padding: 20px;
+
+}
+.content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+h3, p {
+    position: relative;
+    z-index: 2;
+    color: #00A8DF;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .icon-container img {
+    max-width:70%;
+    height: auto;
+}
+h5{
+    padding-left: 84px;
+}
+.card{
+    height: 200px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
