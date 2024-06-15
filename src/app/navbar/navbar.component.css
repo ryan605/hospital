@@ -1,0 +1,11 @@
+.navbar-brand{
+    color: #16599F;
+    font-family:"Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+.btn{
+    color: white;
+    background-color: #00A8DF;
+    border-radius: 3px;
+}
