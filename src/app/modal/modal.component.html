@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img{
+     width: 39px;
+     height: 36px;
+    }
+    .button {
+     width: 80%;
+     border-radius: 7px;
+     }
+ </style>
+<body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="icon-container">
+                      <img src="https://www.shutterstock.com/image-vector/business-bag-icon-vector-sign-260nw-1660566487.jpg" alt="">
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modal-title">
+                        <h3>BOOK AN APPOINTMENT</h3>
+                    </div>
+                  <div class="row">
+                    <div class="col-6 mb-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="john">
+                            <label for="floatingInput">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="lastname">
+                            <label for="floatingInput">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="birthday mb-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Date Of Birth">
+                            <label for="floatingInput">Date Of Birth</label>
+                        </div>
+                    </div>
+                    <div class="dropdown col-6 mb-3">
+                        <button class="button btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Gender
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item">Male</a></li>
+                          <li><a class="dropdown-item">Female</a></li>
+                        </ul>
+                      </div>
+                      <div class="dropdown col-6">
+                        <button class="button btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Select Region
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Africa</a></li>
+                          <li><a class="dropdown-item" href="#">Asia</a></li>
+                          <li><a class="dropdown-item" href="#">North America</a></li>
+                        </ul>
+                      </div>
+                      <div class="country mb-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Country Name">
+                            <label for="floatingInput">Country Name</label>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <h4>Select Service</h4>
+                    </div>
+                    <div class="row check">
+                        <div class="form-check col-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Radiology
+                            </label>
+                          </div>
+                          <div class="form-check col-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Pharmacy
+                            </label>
+                          </div>
+                          <div class="form-check col-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                            General consoltation
+                            </label>
+                          </div>
+                          <div class="form-check col-3">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Walk-in services
+                            </label>
+                          </div>
+                        </div>   
+                  <div class="account mb-3">
+                    <div class="account-title">
+                        <h3>Select Account Type</h3>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Account Type">
+                        <label for="floatingInput">Account Type</label>
+                    </div>
+              </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row w-100">
+                      <div class="col">
+                        <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Close</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-primary w-100">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
